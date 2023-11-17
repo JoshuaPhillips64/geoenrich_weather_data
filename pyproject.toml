@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "geoenrich_weather_info"
+version = "1.0"
+description = ""
+authors = ["josh <josh.l.phillips@me.com>"]
+readme = "README.md"
+
+[virtualenvs]
+in-project = true
+
+[tool.poetry.dependencies]
+python = "3.9.6"
+pandas = "1.5.3"
+python-dotenv = "1.0.0"
+requests = "2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.0.271"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
