@@ -1,4 +1,4 @@
-# Car Accidents and Weather Data Enrichment Project
+# Weather Data Enrichment Project
 
 ## Goal
 This project aims to enrich a list of car accidents, characterized by addresses and timestamps, with weather data obtained from the NOAA's Weather API.
