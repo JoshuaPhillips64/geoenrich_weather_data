@@ -1,10 +1,9 @@
 # Weather Data Enrichment Project
 
 ## Goal
-This project aims to enrich a list of car accidents, characterized by addresses and timestamps, with weather data obtained from the NOAA's Weather API.
+Geoenrich a list of car accidents, characterized by addresses and timestamps, with weather data obtained from the NOAA's Weather API.
 
-## Project Operations
-The project consists of the following steps:
+## Project Steps
 
 1. **Address Processing**:
    - Reads a list of car accident addresses and timestamps.
@@ -23,7 +22,7 @@ The project consists of the following steps:
    - Combines the cleaned weather data with the original CSV data.
 
 4. **Final Output**:
-   - Saves the enriched data as 'DataEnrichedWithWeather.csv' on the user's desktop.
+   - Saves the enriched data as 'DataEnrichedWithWeather.csv'.
 
 ## Setup Instructions
 1. Clone the project repository.
